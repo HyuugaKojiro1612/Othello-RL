@@ -14,5 +14,6 @@ At the beginning of the training process, the agent's memory is filled up with e
 - Game.py: Game interface.
 
 ## References
-- [Reversi_visualize](https://github.com/hieugiaosu/reversi_visualize/tree/main). Thanks Hieu to allow us to use your interface.
+
+- [Reversi_visualize](https://github.com/hieugiaosu/reversi_visualize/tree/main). Thanks Hieu for allowing us to use your interface.
 - [Let’s make a DQN series](https://jaromiru.com/2016/09/27/lets-make-a-dqn-theory/).
