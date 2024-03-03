@@ -29,8 +29,9 @@ def main():
     dqn_agent_random = dqn.RandomAgent(dqn.MEMORY_CAPACITY)
     
     DQN_VERSION = 1500
+    WEIGHTS_PATH = 'D:\\C++\\Reversi\\Othello-RL\\DQN\\weights\\'
     dqn_agent = dqn.Agent( (dqn.BOARD_SIZE, dqn.BOARD_SIZE, dqn.BOARD_STACK), dqn.ACTIONS )
-    dqn_agent.brain.load(dqn.WEIGHTS_PATH + "Othello_%d" % (DQN_VERSION))
+    dqn_agent.brain.load(WEIGHTS_PATH + "Othello_%d" % (DQN_VERSION))
     
     DQN_AGENT_RANDOM = Player(dqn_agent_random.select_move, "QUAN", -1)
     DQN_AGENT = Player(dqn_agent.select_move, "DQN", 1)
